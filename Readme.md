@@ -13,7 +13,7 @@ In this project, I used the **scikit-learn** library to develop a prediction mod
 
 In order to develop a predictive model, I used **scikit-learn** library and tested four different classification algorithms to see which one of them would achieve higher accuracy metrics for the dataset.<br><br>
 Pandas, numpy, matplotlib, seaborn and plotly libs were also used to **explore**, **handle** and **visualize** relevant data for this projetc.<br><br>
-The dataset used for this project was the <a href= "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a> dataset posted on Kaggle, which contains credit card transactions that happened during the month of September, 2013 by european clients for two days.<br><br>
+The dataset used for this project was the <a href= "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a> dataset posted on Kaggle, 
 The dataset has the feature **time**, which shows us the seconds elapsed between each transaction and the first transaction in the dataset. The feature **amount**, containing the transaction amount and the feature **class**, which tells us if that certain transaction is **genuine or a fraud, where 1 = fraud and 0 = genuine**.<br><br>
 Features V1, V2,... V28 are numerical input variables result of a <a href = "https://en.wikipedia.org/wiki/Principal_component_analysis">PCA transformation </a> whose content couldn't be displayed due to their **confidential** nature.<br><br>
 During the development of this project, I've used certain tools from the **sklearn** library that would help me in achieving higher performance metrics for the models, such as the **StandardScaler**, used to alter the scale of **amount** variable and **SMOTE**, from **imblearn** library, used to deal with data imbalance. Both tools were used to avoid creating a model that would be biased towards a determined variable or a determined class.
@@ -63,11 +63,6 @@ In this scenario it is necessary to understand the business and make a few quest
 These questions and a deeper understading of how the business works and how we want to approach solving a problem using machine learning are fundamental for a decision-making process to choose whether or not if we're willing to deal with a larger number of false positives to detect the largest amount of frauds as possible.
 
 
-----
+---
 
-# Kaggle
 
-I've also uploaded this *notebook* to Kaggle, where plotly graphics are interactive. If you wish to see it, please <a href = "https://www.kaggle.com/code/lusfernandotorres/91-87-recall-with-ada-boost-cc-fraud-detection/notebook">click here</a>.
-
-# Author
-**Luís Fernando Torres**
